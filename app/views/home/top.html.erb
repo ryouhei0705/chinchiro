@@ -1,6 +1,17 @@
 <h1>Home#top</h1>
 <p>Find me in app/views/home/top.html.erb</p>
 <div>
-    <%= @sum%>
-        <a href="input">input</a>
+    <% if user_signed_in? %>
+
+      <%= current_user.result %>
+
+      <%= form_tag("/home/#{current_user.id}/add") do  %>
+      <input type="text"  name="add_result">
+      <input type="submit" value="送信">
+      <% end %>
+ 
+    <% end %>
+   
+
+    <a href="input">input</a>
 </div>
