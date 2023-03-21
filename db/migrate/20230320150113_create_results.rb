@@ -4,7 +4,7 @@ class CreateResults < ActiveRecord::Migration[6.0]
       t.integer :user_id, null: false
       t.integer :num, default: 1
       t.integer :payment, default: 0
-      t.integer :perfomance, default:0
+      t.integer :performance, default:0
       t.boolean :win, null: false, default: false
       t.timestamps
     end

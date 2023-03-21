@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2023_03_20_150113) do
     t.integer "user_id", null: false
     t.integer "num", default: 1
     t.integer "payment", default: 0
-    t.integer "perfomance", default: 0
+    t.integer "performance", default: 0
     t.boolean "win", default: false, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
