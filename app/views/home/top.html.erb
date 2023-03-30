@@ -9,6 +9,14 @@
       <input type="text"  value="how much" name="resultPerformance">
       <input type="submit" value="送信">
       <% end %>
+
+      <% @results.each do |result| %>
+      <tr>
+        <td><%= result.user.email %></td>
+        <td><%= result.performance %></td>
+      </tr>
+      <br>
+      <%end%>
  
     <% end %>
    
