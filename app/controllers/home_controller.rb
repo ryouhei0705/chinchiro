@@ -1,8 +1,14 @@
 class HomeController < ApplicationController
   def top
-    # @user = User.all
-    @results = Result.where(user_id: current_user.id)
-    @data = [['2019-06-01', 100], ['2019-06-02', 200], ['2019-06-03', 150]]
+    if user_signed_in?
+      # @user = User.all
+      @results = Result.where(user_id: current_user.id)
+      @data = [['2019-06-01', 100], ['2019-06-02', 200], ['2019-06-03', 150]]
+    end
+  end
+
+  def output
+    
   end
 
   def input
