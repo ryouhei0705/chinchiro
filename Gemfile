@@ -63,9 +63,7 @@ gem "redis", "~> 5.0"
 
 gem 'chartkick'
 
-gem 'bootstrap', '~> 4.3.1'
-gem 'jquery-rails'
+gem 'net-http'
 
-gem 'bootstrap-sass', '~> 3.3.6'
-gem 'sass-rails', '>= 3.2'
+
 
