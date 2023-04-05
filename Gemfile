@@ -62,3 +62,8 @@ gem "pg", "~> 1.4"
 gem "redis", "~> 5.0"
 
 gem 'chartkick'
+
+gem 'net-http'
+
+
+

@@ -3,6 +3,8 @@ class HomeController < ApplicationController
     if user_signed_in?
       # @user = User.all
       @results = Result.where(user_id: current_user.id)
+    else
+      redirect_to(new_user_session_path)
     end
   end
 

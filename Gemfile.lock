@@ -113,6 +113,8 @@ GEM
     mini_portile2 (2.8.1)
     minitest (5.18.0)
     msgpack (1.6.1)
+    net-http (0.3.2)
+      uri
     net-imap (0.3.4)
       date
       net-protocol
@@ -217,6 +219,7 @@ GEM
     turbolinks-source (5.2.0)
     tzinfo (1.2.11)
       thread_safe (~> 0.1)
+    uri (0.12.1)
     warden (1.2.9)
       rack (>= 2.0.9)
     web-console (4.2.0)
@@ -254,6 +257,7 @@ DEPENDENCIES
   dockerfile-rails (>= 1.2)
   jbuilder (~> 2.7)
   listen (~> 3.2)
+  net-http
   pg (~> 1.4)
   puma (~> 4.1)
   rails (~> 6.0.6, >= 6.0.6.1)
