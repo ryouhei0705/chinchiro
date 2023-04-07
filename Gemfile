@@ -65,5 +65,6 @@ gem 'chartkick'
 
 gem 'net-http'
 
+gem 'bootstrap-sass', '~> 3.3.6'
 
 
